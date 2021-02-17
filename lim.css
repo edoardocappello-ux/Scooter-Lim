@@ -1,0 +1,102 @@
+/* body */
+
+body{
+  background-image: url(background.jpg);
+  background-repeat: no-repeat;
+  background-size:1920px 1400px;
+}
+
+.container{
+margin: auto;
+background-color: rgba(0, 0, 0, 0.4);
+width: 1000px;
+height: 800px;
+padding: 70px;
+border-radius: 25px 25px 25px 25px;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+/* Logo e testo */
+
+.logo{
+  width: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.logotesto{
+  font-family: Arial;
+  font-size: 35px;
+  font-weight: 500;
+  text-align: center;
+  color: rgb(0, 221, 0);
+}
+
+/* Imput e tasti */
+
+#top{
+  background: rgb(0, 221, 0);
+  padding: 10px 0;
+  text-align: center;
+}
+
+.bottone{
+  margin: 2px;
+}
+
+/* Lista opzioni */
+
+.elemento1{
+  font-family: Arial;
+  font-size: 24px;
+  font-weight: 500;
+  color: rgb( 225, 225, 225);
+}
+
+.elemento2{
+  font-family: Arial;
+  font-size: 18px;
+  font-weight: 50;
+  color: rgb( 225, 225, 225);
+  margin-top: 5px;
+}
+
+#ban1{
+  background: rgb( 245, 180, 83);
+  padding: 15px;
+  width: 280px;
+  border-radius: 10px 10px 10px 10px;
+  margin-top: 5px;
+}
+
+#ban2{
+  background: rgb(0, 221, 0);
+  padding: 15px;
+  width: 600px;
+  border-radius: 10px 10px 10px 10px;
+  margin-top: 5px;
+}
+
+#ban3{
+  background: rgb( 200, 65, 65);
+  padding: 15px;
+  width: 100px;
+  border-radius: 10px 10px 10px 10px;
+  margin-top: 5px;
+}
+
+/* Credit */
+
+.credit{
+  font-family: Arial;
+  font-size: 15px;
+  font-weight: 500;
+  color: rgb( 225, 225, 225);
+  text-align: center;
+  margin-top: 50px;
+}
